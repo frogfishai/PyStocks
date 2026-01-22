@@ -1,0 +1,23 @@
+VSCODE--OPEN FOLDER
+
+OPEN TERMINAL
+PS C:\Users\frogf\2026SPFX> git init
+Reinitialized existing Git repository in C:/Users/frogf/2026SPFX/.git/
+PS C:\Users\frogf\2026SPFX> git add .
+PS C:\Users\frogf\2026SPFX> git config --global user.name "frogfishai"
+PS C:\Users\frogf\2026SPFX> git config --global user.email "frogfishai@gmail.com"
+PS C:\Users\frogf\2026SPFX> git remote add origin https://github.com/frogfishai/sharepoint
+PS C:\Users\frogf\2026SPFX> git push -u origin main
+
+
+I Figured it out
+https://github.com/frogfishai/sharepoint
+https://github.com/frogfishai/PyStocks
+
+----------------------------------------------------------
+Origin will remember the last git URL string... for some reason.
+----------------------------------------------------------
+
+Set-----> git remote set-url origin https://github.com/frogfishai/PyStocks
+
+Check---> git remote -v
